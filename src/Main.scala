@@ -6,8 +6,10 @@ import word.{Word, WordInSeqGen}
 object Main extends Solution("слеза", "слеза" :: "" :: "  лес" :: "" :: "" :: Nil) {
 
   def main(args: Array[String]): Unit = {
-    val result: Field = solve
-    println(s"Result:\n$result")
+    println(filtered.mkString("\n"))
+
+//    val result: Field = solve
+//    println(s"Result:\n$result")
 //
 //    println(collectAll(0, seqGen.first))
 //    println(collectAll(2, seqGen.first))

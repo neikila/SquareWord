@@ -10,12 +10,7 @@ abstract class Word(val word: String) {
 
   val size = word.length
 
-  def apply(pos: Int): Char = {
-    if (pos >= size) {
-      println(word)
-    }
-    word(pos)
-  }
+  def apply(pos: Int): Char = word(pos)
 
   override def toString: String = word
 

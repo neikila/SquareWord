@@ -12,7 +12,7 @@ class Solution(
   protected val size = letters.size
   protected val seqGen: WordInSeqGen = new WordInSeqGen
   protected val filtered: List[Generator[Word]] = predef.zipWithIndex.map {
-    case (_, i) => new OneOfGen(collectAll(i, seqGen.first))
+    case (_, i) => new OneOfGen(collectAll(i, seqGen.copy().first))
   }
 
   def printAll(word: Word): Unit = {
@@ -33,18 +33,18 @@ class Solution(
     adjusted
   }
 
+  def createField = new Field(filtered.map(_.generate), seqGen)
+
   def isCorrect(word: String, predef: String): Boolean = {
     (word.toList zip predef.toList) forall { case (w, p) => p == ' ' || w == p }
   }
 
-  def createField: Field = new Field(filtered.map(_.generate), seqGen)
-
   def solve: Field = {
     var retryNum = 0
-    var field: Field = createField
+    var field: Field = adjustField(new Field(seqGen))
     while (field.conflicts > 0) {
       retryNum += 1
-      field = createField
+      field = adjustField(field.recreate)
       println(s"Init: retryNum = $retryNum\n$field")
       field = recurse(field, 0, field.conflicts)
     }
@@ -77,9 +77,9 @@ class Solution(
     override def next: Option[Word] = {
       var nextWord: Option[Word] = word.next
 
-      val standard: String = predef.applyOrElse[Int, String](wordPos, e => "")
+      val standard: String = predef(wordPos)
       while (nextWord.isDefined && !isCorrect(nextWord.get.word, standard))
-        nextWord = nextWord.flatMap(_.next)
+        nextWord = nextWord.get.next
 
       nextWord.map(new FilteredWord(wordPos, _))
     }

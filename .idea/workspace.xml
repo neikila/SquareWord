@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.scala">
+      <file leaf-file-name="OneOfGen.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/generators/OneOfGen.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+            <state relative-caret-position="250">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +61,6 @@
         <option value="$PROJECT_DIR$/src/word/WordGen.scala" />
         <option value="$PROJECT_DIR$/src/word/WordNum.scala" />
         <option value="$PROJECT_DIR$/src/word/WordSeq.scala" />
-        <option value="$PROJECT_DIR$/src/word/WordInSeqGen.scala" />
         <option value="$PROJECT_DIR$/src/java/word/WordGen.scala" />
         <option value="$PROJECT_DIR$/src/java/word/WordGen.java" />
         <option value="$PROJECT_DIR$/src/java/word/WordInSeqGen.scala" />
@@ -71,12 +70,14 @@
         <option value="$PROJECT_DIR$/src/java/word/Word.java" />
         <option value="$PROJECT_DIR$/src/java/word/WordSeqGen.java" />
         <option value="$PROJECT_DIR$/src/java/word/Main.java" />
-        <option value="$PROJECT_DIR$/src/Field.scala" />
         <option value="$PROJECT_DIR$/src/v_java/word/Main.java" />
         <option value="$PROJECT_DIR$/src/v_java/word/AllCombinations.java" />
-        <option value="$PROJECT_DIR$/src/Solution.scala" />
-        <option value="$PROJECT_DIR$/src/word/Word.scala" />
         <option value="$PROJECT_DIR$/src/Main.scala" />
+        <option value="$PROJECT_DIR$/src/word/Word.scala" />
+        <option value="$PROJECT_DIR$/src/generators/ChooseIntGen.scala" />
+        <option value="$PROJECT_DIR$/src/Field.scala" />
+        <option value="$PROJECT_DIR$/src/word/WordInSeqGen.scala" />
+        <option value="$PROJECT_DIR$/src/Solution.scala" />
       </list>
     </option>
   </component>
@@ -207,6 +208,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -607,7 +611,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1849" height="1102" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -617,11 +621,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4904661" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2976695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24928856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24928856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32415253" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,27 +680,27 @@
         <state relative-caret-position="1150">
           <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
-            <marker date="1491210015993" expanded="true" signature="7:72" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="74:121" ph="/**...*/" />
-            <marker date="1491210015993" expanded="true" signature="216:2866" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="452:518" ph="(...)" />
-            <marker date="1491210015993" expanded="true" signature="555:690" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="595:686" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="733:968" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="813:951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="851:945" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1027:1113" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1208:1467" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1566:1951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1594:1947" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1710:1941" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1750:1941" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2027:2226" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2112:2222" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2303:2649" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2343:2645" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2785:2864" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="2805:2864" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="7:72" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="74:121" ph="/**...*/" />
+            <marker date="1491212771358" expanded="true" signature="216:2860" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="452:525" ph="(...)" />
+            <marker date="1491212771358" expanded="true" signature="562:697" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="602:693" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="740:975" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="820:958" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="858:952" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1099:1185" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1208:1502" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1601:1986" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1629:1982" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1745:1976" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1785:1976" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2062:2261" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2147:2257" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2338:2643" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2378:2639" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2779:2858" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="2799:2858" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -706,27 +710,27 @@
         <state relative-caret-position="1150">
           <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
-            <marker date="1491210015993" expanded="true" signature="7:72" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="74:121" ph="/**...*/" />
-            <marker date="1491210015993" expanded="true" signature="216:2866" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="452:518" ph="(...)" />
-            <marker date="1491210015993" expanded="true" signature="555:690" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="595:686" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="733:968" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="813:951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="851:945" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1027:1113" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1208:1467" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1566:1951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1594:1947" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1710:1941" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1750:1941" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2027:2226" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2112:2222" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2303:2649" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2343:2645" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2785:2864" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="2805:2864" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="7:72" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="74:121" ph="/**...*/" />
+            <marker date="1491212771358" expanded="true" signature="216:2860" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="452:525" ph="(...)" />
+            <marker date="1491212771358" expanded="true" signature="562:697" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="602:693" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="740:975" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="820:958" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="858:952" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1099:1185" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1208:1502" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1601:1986" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1629:1982" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1745:1976" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1785:1976" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2062:2261" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2147:2257" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2338:2643" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2378:2639" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2779:2858" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="2799:2858" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -836,51 +840,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word/WordNum.scala" />
-    <entry file="file://$PROJECT_DIR$/src/word/WordInSeqGen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding>
-            <marker date="1491156818423" expanded="true" signature="42:89" ph="/**...*/" />
-            <marker date="1491156818423" expanded="true" signature="139:1651" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="213:357" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="237:353" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="411:515" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="560:764" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="616:760" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="832:1017" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="855:959" ph="..." />
-            <marker date="1491156818423" expanded="true" signature="1083:1209" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="1129:1205" ph="..." />
-            <marker date="1491156818423" expanded="true" signature="1301:1649" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="1399:1565" ph="{...}" />
-            <marker date="1491156818423" expanded="true" signature="1485:1543" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generators/ChooseIntGen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <marker date="1490741799324" expanded="true" signature="20:67" ph="/**...*/" />
-            <marker date="1490741799324" expanded="true" signature="131:243" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generators/OneOfGen.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <marker date="1490741799207" expanded="true" signature="20:67" ph="/**...*/" />
-            <marker date="1490741799207" expanded="true" signature="122:237" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/word/WordGen.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1387,69 +1346,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Field.scala">
+    <entry file="file://$PROJECT_DIR$/src/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <marker date="1491208347394" expanded="true" signature="34:81" ph="/**...*/" />
-            <marker date="1491208347394" expanded="true" signature="177:970" ph="{...}" />
-            <marker date="1491208347394" expanded="true" signature="422:475" ph="{...}" />
-            <marker date="1491208347394" expanded="true" signature="546:903" ph="{...}" />
-            <marker date="1491208347394" expanded="true" signature="687:726" ph="(...)" />
-            <marker date="1491208347394" expanded="true" signature="802:841" ph="(...)" />
-            <marker date="1491208347394" expanded="true" signature="939:968" ph="{...}" />
+            <marker date="1491210438517" expanded="true" signature="34:81" ph="/**...*/" />
+            <marker date="1491210438517" expanded="true" signature="165:718" ph="{...}" />
+            <marker date="1491210438517" expanded="true" signature="208:617" ph="{...}" />
+            <marker date="1491210438517" expanded="true" signature="273:613" ph="/.../" />
+            <marker date="1491210438517" expanded="true" signature="669:716" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/word/Word.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <marker date="1491210364168" expanded="true" signature="40:87" ph="/**...*/" />
-            <marker date="1491210364168" expanded="true" signature="126:372" ph="{...}" />
-            <marker date="1491210364168" expanded="true" signature="236:304" ph="{...}" />
-            <marker date="1491210364168" expanded="true" signature="259:286" ph="{...}" />
+            <marker date="1491210925716" expanded="true" signature="40:87" ph="/**...*/" />
+            <marker date="1491210925716" expanded="true" signature="126:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Field.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <marker date="1491212722082" expanded="true" signature="34:81" ph="/**...*/" />
+            <marker date="1491212722082" expanded="true" signature="177:970" ph="{...}" />
+            <marker date="1491212722082" expanded="true" signature="422:475" ph="{...}" />
+            <marker date="1491212722082" expanded="true" signature="546:903" ph="{...}" />
+            <marker date="1491212722082" expanded="true" signature="687:726" ph="(...)" />
+            <marker date="1491212722082" expanded="true" signature="802:841" ph="(...)" />
+            <marker date="1491212722082" expanded="true" signature="939:968" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/word/WordInSeqGen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1491212722097" expanded="true" signature="42:89" ph="/**...*/" />
+            <marker date="1491212722097" expanded="true" signature="139:1651" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="213:357" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="237:353" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="411:515" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="560:764" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="616:760" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="832:1017" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="855:959" ph="..." />
+            <marker date="1491212722097" expanded="true" signature="1083:1209" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="1129:1205" ph="..." />
+            <marker date="1491212722097" expanded="true" signature="1301:1649" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="1399:1565" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="1485:1543" ph="{...}" />
+            <marker date="1491212722097" expanded="true" signature="1749:2004" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="78" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="78" />
+        <state relative-caret-position="225">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <marker date="1491210015993" expanded="true" signature="7:72" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="74:121" ph="/**...*/" />
-            <marker date="1491210015993" expanded="true" signature="216:2866" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="452:518" ph="(...)" />
-            <marker date="1491210015993" expanded="true" signature="555:690" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="595:686" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="733:968" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="813:951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="851:945" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1027:1113" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1208:1467" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1566:1951" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1594:1947" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="1710:1941" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="1750:1941" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2027:2226" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2112:2222" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2303:2649" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2343:2645" ph="{...}" />
-            <marker date="1491210015993" expanded="true" signature="2785:2864" ph="..." />
-            <marker date="1491210015993" expanded="true" signature="2805:2864" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="7:72" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="74:121" ph="/**...*/" />
+            <marker date="1491212771358" expanded="true" signature="216:2860" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="452:525" ph="(...)" />
+            <marker date="1491212771358" expanded="true" signature="562:697" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="602:693" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="740:975" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="820:958" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="858:952" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1099:1185" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1208:1502" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1601:1986" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1629:1982" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="1745:1976" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="1785:1976" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2062:2261" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2147:2257" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2338:2643" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2378:2639" ph="{...}" />
+            <marker date="1491212771358" expanded="true" signature="2779:2858" ph="..." />
+            <marker date="1491212771358" expanded="true" signature="2799:2858" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.scala">
+    <entry file="file://$PROJECT_DIR$/src/generators/ChooseIntGen.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1491211966400" expanded="true" signature="20:67" ph="/**...*/" />
+            <marker date="1491211966400" expanded="true" signature="131:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generators/OneOfGen.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

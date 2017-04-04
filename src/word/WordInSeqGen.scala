@@ -2,9 +2,6 @@ package word
 
 import generators.OneOfGen
 
-
-
-
 case class WordInSeqGen(sequences: AllSequences)(implicit letters: List[Char]) extends WordGen {
   def this()(implicit letters: List[Char]) = this(new AllSequences())
 

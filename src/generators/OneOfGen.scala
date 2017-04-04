@@ -6,5 +6,5 @@ package generators
 class OneOfGen[T](list: List[T]) extends Generator[T] {
   private val chooseGen = new ChooseIntGen(0, list.size)
 
-  override def generate: T = list(chooseGen.generate)
+  override def generate: T = list.apply(chooseGen.generate)
 }

@@ -5,9 +5,9 @@ import word.{Word, WordInSeqGen}
   * Created by k.neyman on 03.04.2017.
   */
 abstract class BaseSolution(
-                    protected val lettersAsWord: String,
-                    protected val predef: List[String]
-                  ) {
+                             protected val lettersAsWord: String,
+                             protected val predef: List[String]
+                           ) {
 
   protected implicit val letters: List[Char] = lettersAsWord.toList
   protected val size = letters.size
@@ -58,6 +58,7 @@ abstract class BaseSolution(
   }
 
   def collectAll(pos: Int, word: Word): List[Word] = collect(new FilteredWord(pos, word))
+
   def collect(filtered: Word): List[Word] = filtered.next match {
     case Some(w) => w :: collect(w)
     case _ => Nil

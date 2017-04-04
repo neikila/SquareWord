@@ -3,7 +3,7 @@ import word.Word
 /**
   * Created by k.neyman on 02.04.2017.
   */
-object Main extends SolutionGreedy("кобура", "кобура" :: "" :: "   раб" :: "" :: " бак" :: "  " :: Nil) {
+object Main extends SolutionNotGreedy("кобура", "кобура" :: "" :: "   раб" :: "" :: " бак" :: "  " :: Nil) {
 
   def main(args: Array[String]): Unit = {
 //    println(filtered.mkString("\n"))
@@ -23,7 +23,7 @@ object Main extends SolutionGreedy("кобура", "кобура" :: "" :: "   �
 //    printAll(new WordInSeqGen().random)
   }
 
-  class StubWord(word: String) extends Word(word) {
-    override def next: Option[Word] = ???
-  }
+//  class StubWord(word: String) extends Word(word) {
+//    override def next: Option[Word] = ???
+//  }
 }

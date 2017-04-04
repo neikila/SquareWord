@@ -1,15 +1,15 @@
-import word.{Word, WordInSeqGen}
+import word.Word
 
 /**
   * Created by k.neyman on 02.04.2017.
   */
-object Main extends Solution("слеза", "слеза" :: "" :: "  лес" :: "" :: "" :: Nil) {
+object Main extends SolutionGreedy("кобура", "кобура" :: "" :: "   раб" :: "" :: " бак" :: "  " :: Nil) {
 
   def main(args: Array[String]): Unit = {
-    println(filtered.mkString("\n"))
-
-//    val result: Field = solve
-//    println(s"Result:\n$result")
+//    println(filtered.mkString("\n"))
+//
+    val result: Field = solve
+    println(s"Result:\n$result")
 //
 //    println(collectAll(0, seqGen.first))
 //    println(collectAll(2, seqGen.first))
